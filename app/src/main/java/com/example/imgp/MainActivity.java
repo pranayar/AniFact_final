@@ -109,28 +109,6 @@ public class MainActivity extends AppCompatActivity {
                     f[9]=outputFeature0.getFloatArray()[9];
 
                     String[] s={"wolf","elephant","giraffe","deer","camel","cat","cow","kangaroo","dog","pig"};
-                  /*
-                   if(f[0]>100.0)
-                        tv.setText("Wolf");
-                    else if(f[1]>100.0)
-                        tv.setText("Elephant");
-                    else if(f[2]>100.0)
-                        tv.setText("giraffe");
-                    else if(f[3]>100.0)
-                        tv.setText("deer");
-                    else if(f[4]>100.0)
-                        tv.setText("camel");
-                    else if(f[5]>100.0)
-                        tv.setText(" cat");
-                    else if(f[6]>100.0)
-                        tv.setText("cow");
-                    else if(f[7]>100.0)
-                        tv.setText("kangaroo");
-                    else if(f[8]>100.0)
-                        tv.setText("dog");
-                    else if(f[9]>100.0)
-                        tv.setText(" pig");
-                  */
                int ind=indexOf(f,largest(f));
 
                common=s[ind];
